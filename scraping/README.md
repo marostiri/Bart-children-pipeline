@@ -6,7 +6,7 @@ With the rapid advancement of Large Language Models, their role in educational c
 ## Folder Structure
 
 ```
-📦 Bart-children-pipeline
+📦 ProjectName
 ├── 📂 data          # Data with source information, dataset and vocabulary
 ├── 📂 generate_data   # Code to generate data 
 ├── 📂 models        # Models used
@@ -14,15 +14,25 @@ With the rapid advancement of Large Language Models, their role in educational c
 └── README.md       # Project documentation
 ```
 
-## Information
+## Installation
 
-The data and results of human evaluation are not exposed.
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/repository-name.git
+   ```
+2. Navigate into the project directory:
+   ```sh
+   cd repository-name
+   ```
+3. Install dependencies (if applicable):
+   ```sh
+   npm install  # or pip install -r requirements.txt
+   ```
 
-In subfolder we explain how to run the code and download external dataset
+## Usage
 
-We used GPU A6000 to run training and inference phase.
+Before, we must run pip instlll
 
 ## Links
-- [Italian Wikipedia](https://it.wikipedia.org/wiki/Pagina_principale)
-- [Italian Vikidia](https://it.vikidia.org/wiki/Pagina_principale)
-- [Hugginface models](https://huggingface.co/)
+- [GitHub Repository](https://github.com/yourusername/repository-name)
+- [Project Documentation](https://yourdocumentationlink.com)
