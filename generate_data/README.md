@@ -11,7 +11,7 @@
 ```
 ## Usage
 
-Before, we must:
+Before, you must:
 - run pip install
 - set variable 'PATH_' at the beginning of the code
 - download terence and itAoA as descibed in README in 'data'

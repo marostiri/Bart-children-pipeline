@@ -1,38 +1,43 @@
 # Bart-children-pipeline
 
-## Description
-With the rapid advancement of Large Language Models, their role in educational contexts has gained increasing attention due to their abilities to generate text. One relevant application in this field is Text Simplification (TS), which aims to reduce text complexity to enhance readability and accessibility. While many approaches to Text Simplification rely on the English language, research focusing on the Italian Language is limited. In particular, there is a lack of methods specifically designed to help 8- to 11-year-old children understand texts. To fill this gap, in this paper, we introduce a new resource for Italian Text Simplification. Our dataset is built by collecting texts from both the Italian Wikipedia and Vikidia, which is an online encyclopedia written for the studied age group. A Pre-trained Language Model is fine-tuned on this resource to generate simplified versions of Wikipedia pages that align with Vikidia’s linguistic style. The simplification process is further guided by a vocabulary built from Vikidia. This post-processing step enables the replacement of potentially complex terms in the output text with synonyms in the vocabulary that are accessible to children. The proposed approach is evaluated through qualitative assessments by elementary school teachers working with 10-year-old students. Through human evaluation, we show the effectiveness of the proposed Text Simplification system and its potential for educational purposes.
-
 ## Folder Structure
 
 ```
 📦 ProjectName
-├── 📂 data          # Data with source information, dataset and vocabulary
-├── 📂 generate_data   # Code to generate data 
-├── 📂 models        # Models used
-├── 📂 scraping       # Scraping code
+├── cleaning_links.py          # leave only last part of URL for final_link
+├── scraping_data.py       # Collect data from Wikipedia and Vikidia
+├── vikidia_links.py       # Crawler to retrieve all links
+├── vikidia_links_scraped.txt       # All links retrieved
+├── vikidia_links_scraped_cleaned.txt # more clean links than vikidia_links_scraped.txt
+├── 📂 utils       # Library code to support other python files
 └── README.md       # Project documentation
 ```
 
-## Installation
+## Command
 
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/yourusername/repository-name.git
-   ```
-2. Navigate into the project directory:
-   ```sh
-   cd repository-name
-   ```
-3. Install dependencies (if applicable):
-   ```sh
-   npm install  # or pip install -r requirements.txt
-   ```
+1. Install selenium on console:
+   ```python3 -m pip install selenium``` or python or py, instead of python3
+
+2. Run python code:
+   ```python "path_file"``` or python or py, instead of python3
+
 
 ## Usage
 
-Before, we must run pip instlll
+Before, you run the code, you have to:
+- install selenium
+- install chromedriver from the link
+- place chromedriver in the folder 
+- set variable 'PATH_' at the beginning of the code
+- create folder normal and cleaned in 'data/Source' or unzip files
+
+
+Pipeline for scraping:
+- run vikidia_links.py
+- run scraping_data.py
+- run cleaning_links.py
+
 
 ## Links
-- [GitHub Repository](https://github.com/yourusername/repository-name)
+- [chromedriver](https://googlechromelabs.github.io/chrome-for-testing/)
 - [Project Documentation](https://yourdocumentationlink.com)
