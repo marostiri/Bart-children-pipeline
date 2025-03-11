@@ -16,7 +16,7 @@ With the rapid advancement of Large Language Models, their role in educational c
 
 ## Information
 
-The folder does not contain the data and analysis obtained through Teacher Evaluation.
+The folder does not contain the data and analysis obtained through Teacher Evaluation For data privacy.
 
 The data and results of human evaluation are not exposed.
 
