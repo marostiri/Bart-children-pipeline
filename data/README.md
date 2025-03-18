@@ -10,7 +10,7 @@
 ```
 ## Usage
 
-For license policies you have to download Terence and ItAOA.
+You have to download Terence and ItAOA.
 For terence:
  after downloading the folder, when you unzip it, put in 'Source'
 For ItAoA:
@@ -18,4 +18,4 @@ For ItAoA:
 
 ## Links
 - [terence](http://www.italianlp.it/resources/terence-and-teacher/)
-- [ItAoA](https://osf.io/3trg2/files/osfstorage)
+- [ItAoA](https://osf.io/3trg2/files/osfstorage) License: CC-By Attribution 4.0 International
